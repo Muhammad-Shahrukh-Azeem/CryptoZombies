@@ -10,22 +10,22 @@ In case if an overflow occurs during an arithmetic operation, it will throw an e
 <h2>ZombieAttack</h2>
 This contract consists of functions that make the fun happen.
 This contract contains functions that take a probability, and through that, it checks which player has won and then changes their scores accordingly.
-<h2>ZombieFactory<h/2>
+<h2>ZombieFactory</h2>
 This contract contains functions that create random zombies for our game and updates them to the mapping.
 One function here creates random DNA for zombies using hash encryption "Keccak."
 It will also emit a event in its create zombie function
-<h2>ZombieHelper<h/2>
+<h2>ZombieHelper</h2>
 This contract is responsible for handling all the changes which user wants to make to his zombie.
 It contains functions that accept "ETHER" to allow users to level up (PAYABLE functions are used). Moreover, it can be used to view that how any zombie does a user have,     
-<h2>ZombieFeeding<h/2>
+<h2>ZombieFeeding</h2>
 This contract will restrict the user from attacking using a cooldown function.
 Another function gives zombies the ability to feed by using a formula that gives zombies a new DNA and triggers a cooldown function.
 A function here allows users to interact and feed on Zombie kitties.
-<h2>ZombieOwnership<h/2>
+<h2>ZombieOwnership</h2>
 This contract Handles all the Owner and keeps track of who has how many zombies and who is transferring to who.
 It also contains some ERC721 function calls.
 It allows users to transfer a zombie to different users and keep track of the Owner.
-<h2>ERC721<h/2>
+<h2>ERC721</h2>
 This contract Contains the standard implementation of ERC721 Functions and their events.
 <h2>UnitTesting</h2>
 Once we deploy our code to the blockchain, it will be there forever, so unit testing is important.
