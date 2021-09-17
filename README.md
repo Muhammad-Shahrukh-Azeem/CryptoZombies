@@ -7,7 +7,7 @@ It consists of many functions and a modifier that makes sure that the user has a
 <h2>SafeMath</h2>
 This contract consists of many functions that allow us to safely perform mathematical calculations.
 In case if an overflow occurs during an arithmetic operation, it will throw an error.
-<h2>ZombieAttack<h/2>
+<h2>ZombieAttack</h2>
 This contract consists of functions that make the fun happen.
 This contract contains functions that take a probability, and through that, it checks which player has won and then changes their scores accordingly.
 <h2>ZombieFactory<h/2>
